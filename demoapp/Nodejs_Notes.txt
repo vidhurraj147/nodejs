@@ -41,4 +41,18 @@ TypeScript file gives / shows an upfront errors to user BUT still generates JS b
 optional arguments num3?:number 
 Optional argument and having a default value num3:number = 0 
 
+Implicit typing 
+var kk = 100; 
+kk = true // this doesnt work thows an exception ( implicit typing kk is internally assigned as kk: number)
 
+If you want any type has to be handled then assign it to kk:any 
+var greetVariable = greet(); // Implicit typing is String
+var greetVariable2;
+greetVariable2 = greet(); // Implicit typing is any if you did not assign at the same level
+
+var a: number | boolean; // a takes the TYPE of number OR boolean; 
+
+Classes Interfaces Polymorphism 
+    // As we cannot have a over loaded functions in the typescript 
+    // similarly we cannot have a overloaded constructor 
+    // ONLY 1 function is allowed

@@ -26,3 +26,18 @@ var optionalFunctionwithDefaultValue = (num1: number, num2: number, num3:number 
 };
 console.log(" optionalFunctionwithDefaultValue 2 3 4 =  "+optionalFunctionwithDefaultValue(2,3,4));
 console.log(" optionalFunctionwithDefaultValue 2 3 = "+optionalFunctionwithDefaultValue(2,3));
+
+function greet(){
+    return "hello world";
+}
+
+var greetVariable = greet(); // Implicit typing is String
+var greetVariable2;
+greetVariable2 = greet(); // Implicit typing is any
+
+var atypeNumberORBoolean : number | boolean;
+atypeNumberORBoolean = 20;
+console.log("atypeNumberORBoolean is number here "+atypeNumberORBoolean);
+atypeNumberORBoolean =  false;
+console.log("atypeNumberORBoolean is boolean here "+atypeNumberORBoolean);
+

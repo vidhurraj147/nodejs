@@ -22,3 +22,14 @@ var optionalFunctionwithDefaultValue = function (num1, num2, num3) {
 };
 console.log(" optionalFunctionwithDefaultValue 2 3 4 =  " + optionalFunctionwithDefaultValue(2, 3, 4));
 console.log(" optionalFunctionwithDefaultValue 2 3 = " + optionalFunctionwithDefaultValue(2, 3));
+function greet() {
+    return "hello world";
+}
+var greetVariable = greet(); // Implicit typing is String
+var greetVariable2;
+greetVariable2 = greet(); // Implicit typing is any
+var atypeNumberORBoolean;
+atypeNumberORBoolean = 20;
+console.log("atypeNumberORBoolean is number here " + atypeNumberORBoolean);
+atypeNumberORBoolean = false;
+console.log("atypeNumberORBoolean is boolean here " + atypeNumberORBoolean);
