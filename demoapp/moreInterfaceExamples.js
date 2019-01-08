@@ -1,3 +1,4 @@
+"use strict";
 document.getElementById("moreInterfaceExamples").innerHTML = "<b></br> More InterfaceExamples </b> </br>";
 var Car = /** @class */ (function () {
     function Car(wheels) {

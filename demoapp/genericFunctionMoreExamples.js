@@ -1,3 +1,4 @@
+"use strict";
 // genericFunctionMoreExamples
 document.getElementById("genericFunctionMoreExamples").innerHTML = "<b></br> Generic Function More Examples </b> </br>";
 var GenericNumber = /** @class */ (function () {

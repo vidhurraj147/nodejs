@@ -1,5 +1,11 @@
+"use strict";
 var PersonReadOnly = /** @class */ (function () {
+    // readonly job; 
+    // constructor(job: string){
+    //     this.job = job;
+    // }
     function PersonReadOnly(job) {
+        this.job = job;
         this.name = "This is READONLY variable";
         this.job = job;
     }

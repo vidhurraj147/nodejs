@@ -1,3 +1,4 @@
+"use strict";
 document.getElementById("genericFunctionExamples").innerHTML = "<b></br> Generic Function Examples </b> </br>";
 function GetType(val) {
     return typeof (val);

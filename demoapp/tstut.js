@@ -1,3 +1,4 @@
+"use strict";
 var myName = "Rahul";
 var myAge = 41;
 var canVote = true;

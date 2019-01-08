@@ -1,3 +1,4 @@
+"use strict";
 document.getElementById("arrayExamples").innerHTML = "<b></br> Array examples</b>";
 var names = ["name1", "Podisha", "Avaina", "Rahul", "Kadgekar", "name2", "name3"];
 document.write(names.toString() + " </br> ");

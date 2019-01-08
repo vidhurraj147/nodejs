@@ -1,3 +1,4 @@
+"use strict";
 document.getElementById("functionExamples").innerHTML = "<b></br> Function examples</b>";
 var getSum = function (num1, num2) {
     return num1 + num2;

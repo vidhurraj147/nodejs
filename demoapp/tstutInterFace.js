@@ -1,3 +1,4 @@
+"use strict";
 console.log("CHECK THIS");
 var superMan = {
     realName: "Clark Kent",

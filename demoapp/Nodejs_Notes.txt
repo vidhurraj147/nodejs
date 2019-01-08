@@ -42,6 +42,10 @@ tsc xxx.ts --out userdefined.js --watch
 To know more about the command line arguments use this below command 
 tsc -help
 
+tsc --init 
+// This will create a tsconfig typescript JSON file 
+// with the configuration details for the compilation and execution
+
 
 var myArr : number[]
 myArr = [];

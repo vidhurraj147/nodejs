@@ -1,3 +1,4 @@
+"use strict";
 var Foo = /** @class */ (function () {
     function Foo() {
     }
@@ -31,3 +32,34 @@ afooObj = someObj2;
 console.log(afooObj.getFullName());
 // console.log(afooObj.addtionalField); 
 // The above calling additionalField wont work because aFooObj DOESNT HAS THAT FIELD
+var Car = /** @class */ (function () {
+    function Car(name, model) {
+        this.name = name;
+        this.model = model;
+    }
+    // constructor(public name: string, public model: string){
+    // }
+    // constructor(protected name: string, protected model: string){
+    // }
+    // This is accessible 
+    //      Inside the CLASS
+    //      Inside the EXTENDED class
+    //  BUT cannot be accesed OUTSIDE the class
+    // like aCar.name = "Ferrari" // This kind of assigning doesnt work
+    // constructor(name: string, model: string){ 
+    // }
+    // The above constructor throws an error 
+    Car.prototype.getName = function () {
+        return this.name;
+    };
+    Car.prototype.getModel = function () {
+        return this.model;
+    };
+    Car.prototype.setName = function (name) {
+        this.name = name;
+    };
+    Car.prototype.setModel = function (model) {
+        this.model = model;
+    };
+    return Car;
+}());

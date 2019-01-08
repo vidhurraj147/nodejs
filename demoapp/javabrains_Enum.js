@@ -1,3 +1,4 @@
+"use strict";
 var DaysOfTheWeek;
 (function (DaysOfTheWeek) {
     DaysOfTheWeek[DaysOfTheWeek["SUN"] = 0] = "SUN";
