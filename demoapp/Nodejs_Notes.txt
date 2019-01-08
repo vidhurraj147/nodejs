@@ -21,3 +21,24 @@ npm install typescript ( default is to install typescript LOCALLY to that specif
 To install globally add "-g" 
 npm install typescript -g 
 ***********************************************************************
+
+To compile typescript
+tsc xxxxxx.ts   ( this comverts typescript ts to JavaScript js)
+
+var myArr : number[]
+myArr = [];
+myArr = [1,2,3,4,5];
+myArr = ['qwery']  myArr = 1 // compilation error
+
+//tuple
+var anotherArray : [number, boolean];
+anotherArray = [1, true];
+anotherArray = [200, false];
+
+Check javabrains_exaples.ts file for more real world code and implementations
+TypeScript file gives / shows an upfront errors to user BUT still generates JS behind the scenes even if there is an exception
+
+optional arguments num3?:number 
+Optional argument and having a default value num3:number = 0 
+
+
