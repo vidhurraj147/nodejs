@@ -1,0 +1,23 @@
+***********************************************************************
+Problems with JavaScript
+
+No control over the variables?
+Variables can be modified to any variables. 
+
+TypeScript = JavaScript + Types;
+
+TypeScript takes care of browser compatability with the new features that has in JavaScript.
+
+Makes building these comples apps more manageable.
+Frameworks like Angular2, ReactJS is using it. 
+
+***********************************************************************
+Setting up TypeScript
+Recomended IDE is Microsoft Visual Studio Code
+Install NodeJS ( to run the TypeScript compiler & then to run the JavaScript)
+Install TypeScript compiler 
+npm install typescript ( default is to install typescript LOCALLY to that specific folder )
+
+To install globally add "-g" 
+npm install typescript -g 
+***********************************************************************
