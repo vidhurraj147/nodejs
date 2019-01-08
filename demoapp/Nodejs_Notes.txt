@@ -56,3 +56,16 @@ Classes Interfaces Polymorphism
     // As we cannot have a over loaded functions in the typescript 
     // similarly we cannot have a overloaded constructor 
     // ONLY 1 function is allowed
+
+var fooObj: Foo = new Foo();
+
+let someObj = {
+    firstName: "testFirstName",
+    lastName: "testLastName",
+    getFullName: () => "giving you test names"
+}
+
+fooObj = someObj; // This works completely fine 
+// because the structure / syntax looks exactly the same
+// THIS IS CALLED DUCK TYPING
+console.log(fooObj.getFullName());    
