@@ -25,6 +25,24 @@ npm install typescript -g
 To compile typescript
 tsc xxxxxx.ts   ( this comverts typescript ts to JavaScript js)
 
+To execute using nodejs 
+nodejs xxxxxx.js
+
+We can run both together 
+tsc xxxxxx.ts && nodejs xxxxxx.js
+
+To name the OUTPUT of tsc to your own js file 
+tsc xxxxxx.ts --out userdefined.js 
+
+To continuously to keep watching the changes 
+tsc xxx.ts --watch
+
+tsc xxx.ts --out userdefined.js --watch
+
+To know more about the command line arguments use this below command 
+tsc -help
+
+
 var myArr : number[]
 myArr = [];
 myArr = [1,2,3,4,5];
